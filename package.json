@@ -24,7 +24,7 @@
     "cfenv": "1.0.x",
     "hapi": "8.4.x",
     "lru-cache": "2.5.x",
-    "nano": "6.1.x",
+    "nano": "6.4.1",
     "request": "2.51.x",
     "restler": "^3.4.0",
     "underscore": "1.7.x"
