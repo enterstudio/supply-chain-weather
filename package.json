@@ -7,7 +7,9 @@
     "cake": "cake",
     "watch": "cake watch",
     "start": "node app.js",
-    "postinstall": "bower install --allow-root"
+    "postinstall": "bower install --allow-root",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": "4.0.x"
@@ -22,12 +24,13 @@
     "async": "0.9.x",
     "cf-deployment-tracker-client": "0.0.x",
     "cfenv": "1.0.x",
-    "hapi": "8.4.x",
+    "hapi": "13.4.0",
     "lru-cache": "2.5.x",
-    "nano": "6.1.x",
+    "nano": "6.4.1",
     "request": "2.51.x",
     "restler": "^3.4.0",
-    "underscore": "1.7.x"
+    "underscore": "1.7.x",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "cakex": "0.1.x",
@@ -38,5 +41,6 @@
       "name": "Jake Peyser",
       "email": "jepeyser@us.ibm.com"
     }
-  ]
+  ],
+  "snyk": true
 }
